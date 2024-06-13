@@ -1,0 +1,15 @@
+[submodule "ogg"]
+	path = ogg
+	url = https://gitlab.xiph.org/xiph/ogg
+[submodule "vorbis"]
+	path = vorbis
+	url = https://gitlab.xiph.org/xiph/vorbis
+[submodule "opus"]
+	path = opus
+	url = https://gitlab.xiph.org/xiph/opus
+[submodule "opusfile"]
+	path = opusfile
+	url = https://gitlab.xiph.org/xiph/opusfile
+[submodule "flac"]
+	path = flac
+	url = https://gitlab.xiph.org/xiph/flac.git
