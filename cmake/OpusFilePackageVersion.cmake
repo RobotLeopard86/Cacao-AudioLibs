@@ -1,0 +1,10 @@
+if(__opusfile_version)
+  return()
+endif()
+set(__opusfile_version INCLUDED)
+
+function(get_package_version PACKAGE_VERSION PROJECT_VERSION)
+  message(STATUS "Opusfile version 0.12")
+  set(PACKAGE_VERSION 0.12-40-g9d71834 PARENT_SCOPE)
+  set(PROJECT_VERSION 0.12 PARENT_SCOPE)
+endfunction()
