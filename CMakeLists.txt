@@ -36,6 +36,3 @@ list(PREPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 
 message("====== OPUSFILE ======")
 add_subdirectory(opusfile)
-
-add_library(AudioLibs INTERFACE)
-target_link_libraries(AudioLibs INTERFACE ogg opus FLAC++ opusfile vorbis vorbisfile)
