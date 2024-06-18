@@ -26,9 +26,6 @@ macro(find_package)
 	endif()
 endmacro()
 
-message("====== FLAC ======")
-add_subdirectory(flac)
-
 message("======= VORBIS =======")
 add_subdirectory(vorbis)
 
